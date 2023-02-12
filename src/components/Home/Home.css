@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../../assets/fonts/helveticaneue.ttf') format('ttf');
+}
+.home-page {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+.home-page > .text-zone {
+    position: absolute;
+    /* left: 10%; */
+    top: 10%;
+    /* transform: translateY(-50%); */
+    width: 100%;
+    max-height: 90%;
+    /* text-align: start; */
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--color-h1);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-h2);
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+}
+
+/* class .btn style button with border radius and neon effect */
+.btn {
+    background-color: var(--color-quaternary);
+    border-radius: 5px;
+    color: var(--color-h1);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px var(--color-quaternary);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--color-h1);
+    color: var(--color-quaternary);
+    box-shadow: 0 0 10px var(--color-h1);
+} 
+

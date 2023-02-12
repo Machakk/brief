@@ -1,0 +1,31 @@
+/* global settings */
+:root {
+  --color-primary: #7a7a7a;
+  --color-secondary: #493f3f;
+  --color-tertiary: #5a5858;
+  --color-quaternary: #962d2d;
+  --color-h1: #ffffff;
+  --color-h2: #ffffff;
+  --color-h3: #ffffff;
+  --color-h4: #ffffff;
+  --color-h5: #ffffff;
+  --color-h6: #ffffff;
+  --color-text: #ffffff;
+}
+
+@import 'animate.css';
+
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helveticaneue.ttf') format('ttf');
+}
+
+
+/* default font for inputs and textareas */
+input, textarea {
+  font-family: 'Helvetica Neue';
+}
+
+
+

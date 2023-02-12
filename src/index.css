@@ -1,0 +1,13 @@
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  color: beige;
+  background: #22272e;
+  overflow: hidden;
+  display: block;
+}
