@@ -13,6 +13,7 @@
     animation-fill-mode: both;
 }
 .text-animate-hover:hover {
+
     cursor:pointer;
     animation: rubberBand 1s;
     /* neon style */
